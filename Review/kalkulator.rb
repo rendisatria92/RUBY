@@ -8,11 +8,11 @@ def inputdigit (prompt)
   print prompt
   input = gets.chomp
   format_input = input.gsub(/(\d)(?=(\d{3})+(?!\d))/, '\\1,')
-  puts "Input yang anda masukan : #{format_input}"
+  puts "Input yang anda masukan : Rp. #{format_input}"
   input.to_i
 end
 
-angka1 = inputdigit("Masukan Angka Pertama : ")
-angka2 = inputdigit("Masukan Angka Kedua : ")
+angka1 = inputdigit("Masukan Angka Pertama : Rp. ")
+angka2 = inputdigit("Masukan Angka Kedua : Rp.  ")
 
-puts "Hasil Penjumlahan : #{digit(angka1 + angka2)}"
+puts "Hasil Penjumlahan : Rp. #{digit(angka1 + angka2)}"
