@@ -3,7 +3,7 @@
 print "Masukkan jenis kelamin (Pria/Wanita): "
 jenis_kelamin = gets.chomp.capitalize
 print "Masukkan umur: "
-umur = gets
+umur = gets.to_i
 
 if jenis_kelamin == 'Pria'
   if umur <= 25
