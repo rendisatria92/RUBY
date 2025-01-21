@@ -1,8 +1,9 @@
 #Tugas memmbuat form pendaftaran sederhana
 
 print "Selamat datang di aplikasi pendaftaran"
-print "Silahkan isi form berikut"
+print "Silahkan isi form berikut\n"
 print "Nama anda adalah : " 
+
 nama = gets.chomp #menggunakan gets.chomp untuk mengambil inputan dari user ketika menekan enter
 print "Umur anda adalah : " 
 umur = gets.chomp.to_i #menggunakan gets.chomp.to_i untuk mengambil inputan dari user dan mengubahnya menjadi integer
