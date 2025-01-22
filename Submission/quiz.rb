@@ -1,4 +1,4 @@
-print "Selamat Datang di Quiz Ruby"
+print "Selamat Datang di Quiz \n"
 print "Jawablah pertanyaan berikut ini"
 
 puts "1.Siapa nama pemeran utama serial Yu-gi-oh?"
@@ -8,15 +8,24 @@ puts "C. Tristan"
 puts "D. Bakura"
 print "Jawaban kamu : "
 
-jawaban_1 = gets.chop
-s_core = self.score(jawaban_1)
-def self.score (jawaban)
+def score(jawaban)
   if jawaban == "A"
-    s_score = 10
+    return 10
   else
-    s_score = 0
+    return 0
   end
-  return s_core
 end
-s_core = self.score(Jawaban_1)
+
+jawaban_1 = gets.chomp
+s_core = score(jawaban_1)
+
+puts "2. Siapa nama pemeran utama serial Naruto?"
+puts "A. Naruto Uzumaki"
+puts "B. Sasuke Uchiha"
+puts "C. Kakashi Hatake"
+puts "D. Iruka Umino"
+print "Jawaban kamu : "
+
+def
+
 puts "Hasil Quiz kamu adalah #{s_core}"
