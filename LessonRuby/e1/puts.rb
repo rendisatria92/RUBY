@@ -17,7 +17,7 @@ puts "Saya bercita - cita manejadi seorang Full Stack."
 print 'Saya lulusan S1 Teknik informatika "Uiversitas Esa Unggul, "'
 print 'Sejak kuliah saya ingin membangun suatu Perusahaan yang bernama "R-Game Studio Animation".'
 
-#Penggunaan Singel quote ''  dan  Double quote "" dibolehkan, perbedaannya adalah kenika menggunakan tanda Singel quote jika dalam satu baris code membutuhkan pemanggulan variabel maka, nilai nya akan bersifat string.
+#Penggunaan Singel quote ''  dan  Double quote "" dibolehkan, perbedaannya adalah kenika menggunakan tanda Singel quote jika dalam satu baris code membutuhkan pemanggulan Interpolasi String maka, nilai nya akan string.
 
 #Contoh !
 print 'Sejak belajar Linux saya senang senang dengan #{Ruby} '
