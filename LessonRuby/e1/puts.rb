@@ -26,5 +26,11 @@ puts  'Belajar Linux Sangat Menyenangkan, cobalah mulai belajar dan belajar #{Ru
 #Penggunaan tanda # di dalam string, artinya adalah menggantikan nilai
 #Penggunaan #{ } untuk memanggil variabel, tapi perlu diingat harus mengunakan "" Double quote
 
+#Contoh
+#Misalkan Kita membuanya variabel Ruby
+
+Ruby = "I Love You Ruby"
+puts "Saya sangat suka dengan #{Ruby}"
+print "Sanagt Keren .. #{Ruby}"
 
 
